@@ -3,7 +3,7 @@
 1. judul Undangan 
 2. tanggal
 3. nama yang diundang
-4. kalimat pe****nutup
+4. kalimat penutup
 
 **#halaman isi**
 1. nama kiri dan kanan
