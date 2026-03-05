@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Elemen Undangan Pernikahan</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div class="card">
+    <h1>Wedding Day</h1>
+    <p><cite>29 Oktober 2026</cite></p>
+
+    <hr>
+
+    <h3>Rahma Oktoyadi</h3>
+    <h3>&</h3>
+    <h3>Nur Diana Tri Zahara</h3>
+
+    <p>Mengundang Bapak/Ibu/Saudara/i</p>
+
+    <h2>Susunan Acara</h2>
+    <ul>
+      <li>Akad Nikah</li>
+      <li>Resepsi</li>
+      <li>Doa Bersama</li>
+    </ul>
+
+    <hr>
+
+<h2>Countdown Pernikahan</h2>
+<p><cite>Menuju hari bahagia kami</cite></p>
+
+<div class="countdown">
+  <div class="box">
+    <div class="number" id="days">0</div>
+    <div class="label">Hari</div>
+  </div>
+  <div class="box">
+    <div class="number" id="hours">0</div>
+    <div class="label">Jam</div>
+  </div>
+  <div class="box">
+    <div class="number" id="minutes">0</div>
+    <div class="label">Menit</div>
+  </div>
+  <div class="box">
+    <div class="number" id="seconds">0</div>
+    <div class="label">Detik</div>
+  </div>
+</div>
+
+<hr>
+
+<h2>Lokasi Acara</h2>
+<p><cite>Silakan klik peta di bawah untuk menuju lokasi</cite></p>
+
+<div class="map-box">
+  <iframe 
+    src="https://www.google.com/maps?q=Masjid%20Istiqlal%20Jakarta&output=embed"
+    allowfullscreen=""
+    loading="lazy">
+  </iframe>
+</div>
+
+
+<hr>
+
+<h2>Konfirmasi Kehadiran</h2>
+<form id="rsvpForm">
+  <input type="text" id="nama" placeholder="Nama Anda" required><br><br>
+
+  <select id="kehadiran" required>
+    <option value="">-- Pilih Kehadiran --</option>
+    <option value="Hadir">Hadir</option>
+    <option value="Tidak Hadir">Tidak Hadir</option>
+  </select><br><br>
+
+  <textarea id="pesan" placeholder="Pesan & Doa"></textarea><br><br>
+
+  <button type="submit">Kirim Konfirmasi</button>
+</form>
+
+<p id="hasilRsvp"></p>
+<hr>
+
+    <p>
+      <cite>
+        Kami sangat berharap kehadiran Bapak/Ibu/Saudara/i untuk berbagi kebahagiaan bersama kami.
+        <br>Terima kasih atas doa dan restunya.
+      </cite>
+    </p>
+
+
+  </div>
+  
+</body>
+</html>
